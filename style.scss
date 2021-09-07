@@ -1,0 +1,123 @@
+@import "./abstracts/button.scss";
+
+
+@media screen and (min-width: 601px) {
+  .h1{
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h1{
+    font-size: 5vw;
+  }
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #202020, #111119);
+}
+
+
+.body{
+    height:100vh;
+    width:100vw;
+    background-image: url('./img/dark.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: 3;
+    
+}
+
+
+.nav{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+  width: 25%;
+  display: inline-block;
+}
+
+.first{
+  width: 25%;
+  display: inline-block;
+}
+
+
+.a{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin: 0;
+    padding: 2.7em;
+    width:5%;
+    text-decoration: none;
+}
+
+
+.a:hover{
+    text-decoration: none;
+    border-bottom:2px white solid;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+
+
+a:visited{
+    text-decoration: underline;
+}
+
+
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+}
+
+.footer-left{
+    color:white;
+    text-align: center;
+    padding:2em;
+    margin:0;
+    width:25%;
+}
+
+.footer-middle{
+    color:white;
+    text-align: center;
+    padding:2em;
+    margin:0;
+    width:25%;
+}
+
+.footer-right{
+    color:white;
+    text-align: center;
+    padding:2em;
+    margin:0;
+    width:25%;
+}
+
+  
+  .toggle:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .toggle:active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .toggle.active {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+
+
